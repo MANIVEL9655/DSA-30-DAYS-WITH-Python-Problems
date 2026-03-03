@@ -4,7 +4,7 @@ def prime(n):
         if(n%i==0):
             count=count+1
             if(n/i !=i):
-                count=count+1
+                count=count+=1
     if count==2:
         print("True")
     else:
